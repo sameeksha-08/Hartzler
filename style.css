@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*---------- START : SAMEEKSHA'S SECTION ---------- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-banner {
+    background-color: #4caf50;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1002;
+    color: white;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 50px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 30px;
+    width: 100%;
+    z-index: 1001;
+}
+
+.navbar-space {
+    height: 140px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.logo-img {
+    width: 200px;
+    height: auto;
+}
+
+.nav-right {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+}
+
+.navbar a:hover {
+    color: #00bfa5;
+}
+
+.order-btn {
+    background-color: #00bfa5;
+    color: white;
+    padding: 8px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.order-btn:hover {
+    background-color: #008e76;
+}
+
+.hero {
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    color: #00bfa5;
+    font-size: 57px;
+    line-height: 1.1;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+
+.showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+}
+
+.left,
+.right {
+    flex: 1;
+    margin: 20px;
+}
+
+.left {
+    max-width: 350px;
+    padding: 20px;
+    text-align: center;
+}
+
+.left img {
+    width: 190px;
+    margin-bottom: 5px;
+}
+
+.left p {
+    font-size: 14px;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.badge {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.badge img {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.badge span {
+    font-size: 14px;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    margin-left: 50px;
+}
+
+.center img {
+
+    width: 580px;
+    border-radius: 10px;
+}
+
+.right {
+    background-color: white;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.right p {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 27px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.right img {
+    width: 125px;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.find-shop-btn {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 27px;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s;
+}
+
+.find-shop-btn:hover {
+    background-color: #005f56;
+}
+
+
+.products {
+    padding: 60px 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.header h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #000;
+    margin-left: 20px;
+}
+
+
+.product-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card:nth-child(5) img {
+    width: 174px;
+    height: 185px;
+}
+
+.card:nth-child(4) img {
+    height: 187px;
+}
+
+.card h4 {
+    font-size: 15px;
+    margin: 10px 0;
+    color: #222;
+}
+
+.price {
+    color: #00796b;
+    font-weight: bold;
+}
+
+
+/* ---------- END : SAMEEKSHA'S SECTION ---------- */
