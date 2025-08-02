@@ -274,6 +274,7 @@ div{
     width: 250px;
     background-color: darkslategrey;
     margin-right: 7px;
+    margin-top: 20px;
 }
 #para{
     background-color: rgb(4, 59, 59);
@@ -382,20 +383,20 @@ h1{
     margin-right: 30px;
     position: relative;
     left: 70px;
-    top: 20px;
+    top: 70px;
     background-image: url(review\ .png);
     background-size: cover;
 }
 .cus{
     position: relative;
     left: 70px;
-    top: 20px;
+    top: 40px;
 }
 .tom{
     position: relative;
     left: 70px;
     font-size: 20px;
-    top: 20px;
+    top: 40px;
 }
 .divider{
     width: 1300px;
