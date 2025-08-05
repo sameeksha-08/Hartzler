@@ -274,25 +274,27 @@ div{
     width: 250px;
     background-color: darkslategrey;
     margin-right: 7px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 #para{
     background-color: rgb(4, 59, 59);
-    height: 150px;
+    height: 210px;
     width: 250px;
+    font-family: 'poppins', sans-serif;
 }
 #pro{
     font-size: 20px;
     font-weight: bolder;
     color: black;
     width: 200px;
+    margin-top: 15px;
 }
 h1{
     font-size: 40px;
     font-weight: bolder;
 }
 #inner{
-    height: 250px;
+    height: 260px;
     width: 584px;
     background-image: url(butter.jpg);
     background-size: contain;
@@ -397,6 +399,7 @@ h1{
     left: 70px;
     font-size: 20px;
     top: 40px;
+    font-family: 'poppins', sans-serif;
 }
 .divider{
     width: 1300px;
@@ -430,5 +433,7 @@ ul{
     font-family: cursive;
     font-size: 30px;
 }
-
+#mu{
+    font-family: 'poppins', sans-serif;
+}
 
