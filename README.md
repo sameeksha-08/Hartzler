@@ -1,1 +1,1 @@
- Hartzler-Diary Webpage Using HTML and CSS
+ Hartzler-Diary Website Using HTML and CSS
